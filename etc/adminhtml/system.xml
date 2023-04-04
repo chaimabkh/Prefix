@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Magento2Module/etc/adminhtml/module.xsd">
+    <system>
+        <section id="catalog">
+            <group id="frontend">
+                <field id="product_prefix" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Product Prefix</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
